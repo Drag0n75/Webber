@@ -1,0 +1,14 @@
+project]
+name = "webber"
+version = "1.0.0"
+description = "Async Flask + HTTPX + BeautifulSoup wrapper. GET/POST configurable with JSON, headers, proxy and persistent session"
+authors = [{name="C4zzOfficial"}]
+dependencies = [
+    "flask",
+    "httpx",
+    "beautifulsoup4"
+]
+
+[build-system]
+requires = ["setuptools"]
+build-backend = "setuptools.build_meta"
